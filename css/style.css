@@ -1,0 +1,60 @@
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ul li {
+    list-style-type: none;
+    text-transform: uppercase;
+    display: inline;
+    color: #fff;
+    margin-right: 20px;
+}
+ul {
+    background-color: rgb(143, 131, 131);
+    padding: 10px 0;
+    margin: 0 !important;
+    text-align: right;
+}
+ul li:nth-child(5){
+    margin-right: 150px
+}
+.hero-section {
+    background-image: url('../images/1.jpg');
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.hero-section h1 {
+    color: #fff;
+}
+.form input {
+    margin-bottom: 15px;
+}
+.form {
+    width: 300px;
+    border: 1px solid #000;
+    position: absolute;
+    background-color: #fff;
+    left: 70%;
+    top: 20%;
+    padding: 25px 20px;
+    box-shadow: 0px 0px 15px 0px 
+}
+.btn {
+    background: #ffb20f;
+    border: none;
+    width: 100%;
+    font-weight: bold;
+    padding: 8px 25px;
+    border-radius: 5px;
+}
+.form input[type=text], .form input[type=email]{
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 5px 10px;
+    width: 93%;
+}
+span {
+    color: #ffb20f;
+}
